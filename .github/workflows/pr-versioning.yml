@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate Semantic Version
         id: semver
-        uses: rapidstack/PR-Label-Semver-Action@v1
+        uses: rapidstack/pr-label-semver-action@v1.3.6
 
       - name: Create Git Tag
         uses: actions/github-script@v5
